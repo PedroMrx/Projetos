@@ -1,0 +1,35 @@
+body
+{
+    background-image: linear-gradient(45deg, rgb(216, 30, 216), rgb(48, 97, 201));
+}
+header, main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+button
+{
+    width: 150px;
+    height: 65px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(246, 248, 250);
+}
+button:hover
+{
+    background-color: rgb(62, 122, 201);
+}
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(27, 4, 27, 0.3);
+    padding: 1em;
+    border-radius: 20px;
+}
